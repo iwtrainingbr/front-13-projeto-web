@@ -18,47 +18,25 @@
         <li class="nav-item" role="presentation">
           <button class="nav-link" id="add-tab" data-bs-toggle="tab" data-bs-target="#add" type="button" role="tab" aria-controls="add" aria-selected="false">Novo</button>
         </li>
+        <li class="nav-item" role="presentation">
+          <button class="nav-link" id="login-tab" data-bs-toggle="tab" data-bs-target="#login" type="button" role="tab" aria-controls="login" aria-selected="false">Login</button>
+        </li>
+        <li class="nav-item" role="presentation">
+          <button class="nav-link" id="settings-tab" data-bs-toggle="tab" data-bs-target="#settings" type="button" role="tab" aria-controls="settings" aria-selected="false">Configurações</button>
+        </li>
       </ul>
       <div class="tab-content" id="myTabContent">
         <div class="tab-pane fade show active" id="list" role="tabpanel" aria-labelledby="list-tab">
 
-          <table class="table table-hover table-striped mt-3">
-            <thead class="table-dark">
-              <tr>
-                <th>#ID</th>
-                <th>Placa</th>
-                <th>Marca</th>
-                <th>Modelo</th>
-                <th>Ano</th>
-                <th>Cor</th>
-                <th>Ações</th>
-              </tr>
-            </thead>
-            <tbody id="table-vehicles">
-
-            </tbody>
-          </table>
-
         </div>
         <div class="tab-pane fade mb-3" id="add" role="tabpanel" aria-labelledby="add-tab">
-          <form action="" onsubmit="saveVehicle()">
-            <label for="plate">Placa</label>
-            <input type="text" id="plate" placeholder="Placa" class="form-control mb-3">
 
-            <label for="make">Marca</label>
-            <input type="text" id="make" placeholder="Marca" class="form-control mb-3">
+        </div>
+        <div class="tab-pane fade mb-3" id="login" role="tabpanel" aria-labelledby="login-tab">
 
-            <label for="model">Modelo</label>
-            <input type="text" id="model" placeholder="Modelo" class="form-control mb-3">
+        </div>
+        <div class="tab-pane fade mb-3" id="settings" role="tabpanel" aria-labelledby="settings-tab">
 
-            <label for="year">Ano</label>
-            <input type="text" id="year" placeholder="Ano" class="form-control mb-3">
-
-            <label for="color">Cor</label>
-            <input type="text" id="color" placeholder="Cor" class="form-control mb-3">
-
-            <button class="btn btn-primary">ENVIAR</button>
-          </form>
         </div>
       </div>
 
@@ -66,6 +44,10 @@
 
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
 
+    <script src="js/pages/listVehicles.js"></script>
+    <script src="js/pages/addVehicle.js"></script>
+    <script src="js/pages/login.js"></script>
+    <script src="js/pages/settings.js"></script>
     <script src="js/main.js"></script>
   </body>
 </html>

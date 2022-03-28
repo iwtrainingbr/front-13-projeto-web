@@ -1,46 +1,9 @@
-const TABLE_VEHICLES = document.getElementById('table-vehicles');
+const PAGE_LIST = document.getElementById('list');
+const PAGE_ADD = document.getElementById('add');
+const PAGE_LOGIN = document.getElementById('login');
+const PAGE_SETTINGS = document.getElementById('settings');
 
-const URL_VEHICLES = 'http://localhost:3000/veiculos';
-
-//buscando todos os veiculos, na API
-fetch(URL_VEHICLES, {method: 'GET'} )
-  .then(response => response.json())
-  .then(vehicles => {
-    vehicles.map(vec => {
-      TABLE_VEHICLES.innerHTML += `
-        <tr>
-          <td>${vec.id}</td>
-          <td>${vec.placa}</td>
-          <td>${vec.marca}</td>
-          <td>${vec.modelo}</td>
-          <td>${vec.ano_fabricacao}/${vec.ano_modelo}</td>
-          <td>${vec.cor}</td>
-        </tr>
-      `;
-    });
-  });
-
-
-function saveVehicle() {
-  event.preventDefault();
-
-  let newVehicle = {
-    placa: document.getElementById('plate').value,
-    marca: document.getElementById('make').value,
-    modelo: document.getElementById('model').value,
-    ano_modelo: document.getElementById('year').value,
-    ano_fabricacao: document.getElementById('year').value,
-    cor: document.getElementById('color').value,
-  };
-
-  fetch(URL_VEHICLES, {
-    method: 'POST',
-    body: JSON.stringify(newVehicle),
-    headers: {
-      "Content-Type": "application/json"
-    }
-  });
-
-  alert('Veiculo inserido');
-  location.href = "index.html";
-}
+PAGE_LIST.innerHTML = listVehicles();
+PAGE_ADD.innerHTML = addVehicle();
+PAGE_LOGIN.innerHTML = login();
+PAGE_SETTINGS.innerHTML = settings();
