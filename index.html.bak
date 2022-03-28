@@ -24,20 +24,7 @@
         <li class="nav-item" role="presentation">
           <button class="nav-link" id="settings-tab" data-bs-toggle="tab" data-bs-target="#settings" type="button" role="tab" aria-controls="settings" aria-selected="false">Configurações</button>
         </li>
-    		<li class="nav-item" role="presentation">
-          <button class="nav-link" id="jesus-tab" data-bs-toggle="tab" data-bs-target="#jesus" type="button" role="tab" aria-controls="jesus" aria-selected="false">Jesus</button>
-        </div>  
-        <li class="nav-item" role="presentation">
-          <button class="nav-link" id="joao-tab" data-bs-toggle="tab" data-bs-target="#joao" type="button" role="tab" aria-controls="joao" aria-selected="false">Joao</button>
-        </li>
-        <li class="nav-item" role="presentation">
-            <button class="nav-link" id="wesley-tab" data-bs-toggle="tab" data-bs-target="#wesley" type="button" role="tab" aria-controls="wesley" aria-selected="false">Wesley</button>
-        </li>
-        <li class="nav-item" role="presentation">
-          <button class="nav-link" id="dayane-tab" data-bs-toggle="tab" data-bs-target="#dayane" type="button" role="tab" aria-controls="dayane" aria-selected="false">Dayane</button>
-        </li>
       </ul>
-	  
       <div class="tab-content" id="myTabContent">
         <div class="tab-pane fade show active" id="list" role="tabpanel" aria-labelledby="list-tab">
 
@@ -51,33 +38,16 @@
         <div class="tab-pane fade mb-3" id="settings" role="tabpanel" aria-labelledby="settings-tab">
 
         </div>
-
-    		<div class="tab-pane fade mb-3" id="jesus" role="tabpanel" aria-labelledby="jesus-tab">
-
-        </div>
-        
-
-        <div class="tab-pane fade mb-3" id="joao" role="joao" aria-labelledby="joao-tab"></div>
-        <div class="tab-pane fade mb-3" id="wesley" role="tabpanel" aria-labelledby="wesley-tab"></div>
-
-        <div class="tab-pane fade mb-3" id="dayane" role="tabpanel" aria-labelledby="dayane-tab"></div>
       </div>
 
     </section>
 
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
 
-
-    <script src="js/pages/wesley.js"></script>
     <script src="js/pages/listVehicles.js"></script>
     <script src="js/pages/addVehicle.js"></script>
     <script src="js/pages/login.js"></script>
     <script src="js/pages/settings.js"></script>
-
-    
- 	  <script src="js/pages/jesus.js"></script>
-    <script src="js/pages/joao.js"></script>
-    <script src="js/pages/dayane.js"></script>
     <script src="js/main.js"></script>
   </body>
 </html>
