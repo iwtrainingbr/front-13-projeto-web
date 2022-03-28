@@ -1,0 +1,49 @@
+{
+  "veiculos": [
+    {
+      "id": 1,
+      "placa": "HOU-3725",
+      "ano_modelo": 1995,
+      "ano_fabricacao": 1995,
+      "marca": "Chevrolet",
+      "modelo": "Corsa Wind",
+      "cor": "Azul"
+    },
+    {
+      "id": 2,
+      "placa": "ORT-5515",
+      "ano_modelo": 2013,
+      "ano_fabricacao": 2014,
+      "marca": "Chevrolet",
+      "modelo": "Classic LS",
+      "cor": "Verde Lotus"
+    },
+    {
+      "id": 3,
+      "placa": "PNO-7745",
+      "ano_modelo": 2019,
+      "ano_fabricacao": 2019,
+      "marca": "Chevrolet",
+      "modelo": "Prisma",
+      "cor": "Branco"
+    },
+    {
+      "id": 4,
+      "placa": "RIF-7F01",
+      "ano_modelo": 2021,
+      "ano_fabricacao": 2021,
+      "marca": "Chevrolet",
+      "modelo": "Onix Plus",
+      "cor": "Preto"
+    },
+    {
+      "id": 5,
+      "placa": "HVS-2B07",
+      "ano_modelo": 1998,
+      "ano_fabricacao": 1998,
+      "marca": "Chevrolet",
+      "modelo": "Kadett",
+      "cor": "Branco"
+    }
+  ]
+}
