@@ -1,5 +1,6 @@
 {
   "veiculos": [
+
     {
       "id": 1,
       "placa": "HOU-3725",
@@ -63,5 +64,54 @@
       "cor": "",
       "id": 7
     }
+  ],
+
+  "collaborators": [
+    {
+      "name":"Dayane Mendonça",
+      "email":"dayane@gmail.com",
+      "phone":8596568545,
+      "gender":"f",
+      "birth":"30/05/1991",
+      "address": "Rua viriato 212",
+      "specialty":"Auxiliar Coach"
+    },
+    {
+      "name":"Wesley Sousa",
+      "email":"wesley@gmail.com",
+      "phone":8598563256,
+      "gender":"m",
+      "birth":"12/09/1991",
+      "address": "Rua tres de maio 2569",
+      "specialty":"coach master"
+    },
+    {
+      "name":"Jonas Nascimento",
+      "email":"jonas@gmail.com",
+      "phone":8598564587,
+      "gender":"m",
+      "birth":"15/05/1991",
+      "address": "Rua tres de maio 1256",
+      "specialty":"coach training "
+    },
+    {
+      "name":"Quilherme mendes",
+      "email":"qui@gmail.com",
+      "phone":856325695,
+      "gender":"m",
+      "birth":"23/07/1991",
+      "address": "Rua Amazonas 1254",
+      "specialty":"coach training"
+    },
+    {
+      "name":"Larissa Vasconcelos",
+      "email":"lari@gmail.com",
+      "phone":8552365142,
+      "gender":"f",
+      "birth":"16/08/1991",
+      "address": "Rua rondonia 52",
+      "specialty":"Estagiária"
+    }
+
   ]
 }
