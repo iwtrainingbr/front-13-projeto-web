@@ -26,29 +26,41 @@ function saveColaborador() {
 
 function addCollaborator() {
     return `
-    <form action="" onsubmit="saveColaborador()">
-      <label for="plate">Nome</label>
-      <input type="text" id="name" placeholder="Colaborador" class="form-control mb-3">
 
-      <label for="email">Email</label>
-      <input type="text" id="email" placeholder="Email" class="form-control mb-3">
+    <section class="row mt-4">
+      <div class="col-12">
+        <h2>Novo Colaborador</h2>
+      </div>
+      <div class="col">
+        <form action="" onsubmit="saveColaborador()">
+          <label for="plate">Nome</label>
+          <input type="text" id="name" placeholder="Colaborador" class="form-control mb-3">
 
-      <label for="telefone">Telefone</label>
-      <input type="text" id="tel" placeholder="Telefone" class="form-control mb-3">
+          <label for="email">Email</label>
+          <input type="text" id="email" placeholder="Email" class="form-control mb-3">
 
-      <label for="model">Endereço</label>
-      <input type="text" id="adress" placeholder="Endereço" class="form-control mb-3">
+          <label for="telefone">Telefone</label>
+          <input type="text" id="tel" placeholder="Telefone" class="form-control mb-3">
 
-      <label for="year">Data de Nascimento</label>
-      <input type="text" id="date_born" placeholder="Data de Nascimento" class="form-control mb-3">
+          <label for="model">Endereço</label>
+          <input type="text" id="adress" placeholder="Endereço" class="form-control mb-3">
 
-      <label for="sexo">Sexo</label>
-      <input type="text" id="sexo" placeholder="Sexo" class="form-control mb-3">
-      
-      <label for="especialidades">Especialidades</label>
-      <input type="text" id="specialties" placeholder="especialidades" class="form-control mb-3">
+          <label for="year">Data de Nascimento</label>
+          <input type="text" id="date_born" placeholder="Data de Nascimento" class="form-control mb-3">
 
-      <button class="btn btn-primary">Cadastrar</button>
-    </form>
+          <label for="sexo">Sexo</label>
+          <input type="text" id="sexo" placeholder="Sexo" class="form-control mb-3">
+
+          <label for="especialidades">Especialidades</label>
+          <input type="text" id="specialties" placeholder="especialidades" class="form-control mb-3">
+
+          <button class="btn btn-primary">Cadastrar</button>
+        </form>
+      </div>
+
+      <div class="col">
+        IMAGEM
+      </div>
+    </section>
   `;
 }

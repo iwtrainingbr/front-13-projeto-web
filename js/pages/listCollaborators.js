@@ -1,4 +1,4 @@
-const LIST_COLLABORATORS = 'http://localhost:8000/collaborators';
+const LIST_COLLABORATORS = 'http://localhost:3009/collaborators';
 
 
 function listCollaborators () {
@@ -36,9 +36,9 @@ function listCollaborators () {
             </tr>
         </thead>
         <tbody id="table-collaborators">
-        
+
         </tbody>
       </table>
     `;
-    
+
 }
