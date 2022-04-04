@@ -61,6 +61,24 @@
             Configurações
           </button>
         </li>
+        <!-- Butão de Listar - Colaboradores -->
+        <li class="nav-item" role="presentation">
+          <li class="nav-item" role="presentation">
+            <button
+              class="nav-link"
+              id="collaborators-list-tab"
+              data-bs-toggle="tab"
+              data-bs-target="#collaborators-list"
+              type="button"
+              role="tab"
+              aria-controls="collaborators-list"
+              aria-selected="true"
+            >
+              Listar Colaboradores
+            </button>
+          </li>
+
+        </li>
     </ul>
 
 
@@ -72,6 +90,9 @@
         <div class="tab-pane fade mb-3" id="customer-add" role="tabpanel" aria-labelledby="add-tab" data-content="addCustomer"></div>
 
         <div class="tab-pane fade mb-3" id="settings" role="tabpanel" aria-labelledby="settings-tab" data-content="settings"></div>
+
+        <!-- Conteúdo da Listagem executando a função da listagem de colaboradores -->
+        <div class="tab-pane fade" id="collaborators-list" role="tabpanel" aria-labelledby="list-collaborators-tab" data-content="listCollaborators"></div>
       </div>
     </section>
   </main>
@@ -86,6 +107,7 @@
 
     <script src="js/pages/addCustomer.js"></script>
     <script src="js/pages/listCustomers.js"></script>
+    <script src="js/pages/listCollaborators.js"></script>
 
     <script src="js/pages/settings.js"></script>
     <!-- <script src="js/pages/wesley.js"></script>
