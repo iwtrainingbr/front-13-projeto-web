@@ -45,7 +45,24 @@
             aria-selected="false"
           >
             Novo Cliente
+            
           </button>
+
+        </li> 
+        <!-- Botão da aba - Add -->
+          <li class="nav-item" role="presentation">
+            <button
+              class="nav-link"
+              id="horario-list-tab"
+              data-bs-toggle="tab"
+              data-bs-target="#horario-list"
+              type="button"
+              role="tab"
+              aria-controls="horario-list"
+              aria-selected="false"
+            >
+              Listar Horarios
+            </button>
         </li>
         <li class="nav-item" role="presentation">
           <button
@@ -58,7 +75,22 @@
             aria-controls="settings"
             aria-selected="false"
           >
-            Configurações
+            Configurações      
+            
+          </button>
+        </li> 
+        <li class="nav-item" role="presentation">
+          <button
+             class="nav-link"
+            id="addCollaborator-tab"
+            data-bs-toggle="tab"
+            data-bs-target="#addCollaborator"
+            type="button"
+            role="tab"
+            aria-controls="addCollaborator"
+            aria-selected="false"
+          >
+            Novo colaborador
           </button>
         </li>
         <!-- Butão de Listar - Colaboradores -->
@@ -79,8 +111,27 @@
           </li>
 
         </li>
+        
+        </li>
+        <li class="nav-item" role="presentation">
+          <button
+            class="nav-link"
+            id="addSchadule-tab"
+            data-bs-toggle="tab"
+            data-bs-target="#addSchadule"
+            type="button"
+            role="tab"
+            aria-controls="addSchadule"
+            aria-selected="false"
+          >
+            Horários      
+            
+          </button>
+        </li> 
+        
+      </ul>
+            
     </ul>
-
 
       <div class="tab-content" id="myTabContent">
         <!-- Conteúdo da Listagem executando a função da listagem -->
@@ -88,11 +139,17 @@
 
         <!-- Conteúdo da adição dos dados dos clientes executando a função da adição -->
         <div class="tab-pane fade mb-3" id="customer-add" role="tabpanel" aria-labelledby="add-tab" data-content="addCustomer"></div>
-
         <div class="tab-pane fade mb-3" id="settings" role="tabpanel" aria-labelledby="settings-tab" data-content="settings"></div>
 
         <!-- Conteúdo da Listagem executando a função da listagem de colaboradores -->
         <div class="tab-pane fade" id="collaborators-list" role="tabpanel" aria-labelledby="list-collaborators-tab" data-content="listCollaborators"></div>
+        
+        <div class="tab-pane fade mb-3" id="addSchadule" role="tabpanel" aria-labelledby="addSchadule-tab" data-content="addSchadule"></div>
+
+        <div class="tab-pane fade " id="horario-list" role="tabpanel" aria-labelledby="horario-list-tab" data-content="listHorarios"></div>
+      
+        <div class="tab-pane fade mb-3" id="addCollaborator" role="tabpanel" aria-labelledby="addCollaborator-tab" data-content="addCollaborator"></div>
+        <div class="tab-pane fade mb-3" id="listCustomers" role="tabpanel" aria-labelledby="add-tab" data-content="listCustomers  "></div>
       </div>
     </section>
   </main>
@@ -108,8 +165,13 @@
     <script src="js/pages/addCustomer.js"></script>
     <script src="js/pages/listCustomers.js"></script>
     <script src="js/pages/listCollaborators.js"></script>
+    <script src="js/pages/listHorarios.js"></script>
+    
+    <script src="js/pages/addCollaborator.js"></script>
 
     <script src="js/pages/settings.js"></script>
+    <script src="js/pages/addSchadule.js"></script>
+    
     <!-- <script src="js/pages/wesley.js"></script>
     <script src="js/pages/ale.js"></script>
     <script src="js/pages/login.js"></script>
