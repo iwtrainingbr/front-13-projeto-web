@@ -1,17 +1,14 @@
-function saveTime() {
-    event.preventDefault();
-
-    let newTime = {
-        dias: element.getAttribute()
-    }
-
-}
+const ADD_SCHADULE = http
 
 
 
-function wesley() {
+
+
+function addSchadule() {
+
+   
     return `
-    <section class="row">
+    <section class="row card-group mt-2">
     <form action="" onsubmit="saveTime()">
 
     <div class="col">
@@ -47,13 +44,14 @@ function wesley() {
     </select>
     </div>
 
+    <div class="col mt-2"> 
+    <label for=""> Capacidade de alunos </label>  
+    <input type="number"  class="form-control" style="max-width: 18rem";>
+    </div>
+    
     <button class="btn btn-primary mt-5">ENVIAR</button>
 
 </form>
-
-    <div class="col"
-    <h2> </h2>
-    </div>
 </section>
     `
 }
