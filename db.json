@@ -1,5 +1,6 @@
 {
   "veiculos": [
+
     {
       "id": 1,
       "placa": "HOU-3725",
@@ -44,24 +45,118 @@
       "marca": "Chevrolet",
       "modelo": "Kadett",
       "cor": "Branco"
-    },
-    {
-      "placa": "XXX-0800",
-      "marca": "Toyota",
-      "modelo": "Etios",
-      "ano_modelo": "2019",
-      "ano_fabricacao": "2019",
-      "cor": "Cinza",
-      "id": 6
-    },
-    {
-      "placa": "PMM-1234",
-      "marca": "",
-      "modelo": "",
-      "ano_modelo": "",
-      "ano_fabricacao": "",
-      "cor": "",
-      "id": 7
     }
-  ]
+  ],
+
+
+  "collaborators": [
+    {
+      "name":"Dayane Mendonça",
+      "email":"dayane@gmail.com",
+      "phone":8596568545,
+      "gender":"f",
+      "birth":"30/05/1991",
+      "address": "Rua viriato 212",
+      "specialty":"Auxiliar Coach"
+    },
+    {
+      "name":"Wesley Sousa",
+      "email":"wesley@gmail.com",
+      "phone":8598563256,
+      "gender":"m",
+      "birth":"12/09/1991",
+      "address": "Rua tres de maio 2569",
+      "specialty":"coach master"
+    },
+    {
+      "name":"Jonas Nascimento",
+      "email":"jonas@gmail.com",
+      "phone":8598564587,
+      "gender":"m",
+      "birth":"15/05/1991",
+      "address": "Rua tres de maio 1256",
+      "specialty":"coach training "
+    },
+    {
+      "name":"Quilherme mendes",
+      "email":"qui@gmail.com",
+      "phone":856325695,
+      "gender":"m",
+      "birth":"23/07/1991",
+      "address": "Rua Amazonas 1254",
+      "specialty":"coach training"
+    },
+    {
+      "name":"Larissa Vasconcelos",
+      "email":"lari@gmail.com",
+      "phone":8552365142,
+      "gender":"f",
+      "birth":"16/08/1991",
+      "address": "Rua rondonia 52",
+      "specialty":"Estagiária"
+    }
+
+  ],
+
+ "customers": [
+   {
+    "name": "Victor",
+    "email":"victor@gmail.com",
+    "phone": 85987007656,
+    "address": "rua 22 casa 356 A Maracanau Ceara",
+    "birth": "08/04/1991",
+    "gender": "masculino"
+   },
+   {
+    "name": "Jonas",
+    "email":"jonas@gmail.com",
+    "phone": 85988007656,
+    "address": "rua 23 casa 22 Fortaleza Ceara",
+    "birth": "10/0/1990",
+    "gender": "masculino"
+   },
+   {
+    "name": "João",
+    "email":"joao@gmail.com",
+    "phone": 85987585621,
+    "address": "rua 24 casa 24 Fortaleza Ceara",
+    "birth": "09/04/2003",
+    "gender": "masculino"
+   },
+   {
+    "name": "Wesley",
+    "email":"wesley@gmail.com",
+    "phone": 8598862655,
+    "address": "rua 01 casa 386 Fortaleza Ceara",
+    "birth": "08/04/1881",
+    "gender": "masculino"
+   },
+   {
+    "name": "Ronaldo",
+    "email":"ronaldo@gmail.com",
+    "phone": 85987878787,
+    "address": "rua 34 casa 01  Fortaleza Ceara",
+    "birth": "12/12/2013",
+    "gender": "masculino"
+   },
+   {
+    "name": "jesus",
+    "email":"jesus@gmail.com",
+    "phone": 85987777786,
+    "address": "rua 05 casa 65 Fortaleza Ceara",
+    "birth": "01/08/1997",
+    "gender": "masculino"
+   },
+   {
+    "name": "Dayane",
+    "email":"dayane@gmail.com",
+    "phone": 85987323232,
+    "address": "rua 28 casa 389 fortaleza Ceara",
+    "birth": "08/04/1882",
+    "gender": "feminino"
+   }
+
+ ]
+ 
+
 }
