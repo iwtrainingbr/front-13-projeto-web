@@ -60,9 +60,23 @@
           >
             Configurações
           </button>
+        </li>
 
+        <li class="nav-item" role="presentation">
+          <button
+            class="nav-link"
+            id="addCollaborator-tab"
+            data-bs-toggle="tab"
+            data-bs-target="#addCollaborator"
+            type="button"
+            role="tab"
+            aria-controls="addCollaborator"
+            aria-selected="false"
+          >
+            Novo colaborador
+          </button>
+        </li>
     </ul>
-
 
       <div class="tab-content" id="myTabContent">
         <!-- Conteúdo da Listagem executando a função da listagem -->
@@ -71,6 +85,9 @@
         <!-- Conteúdo da adição dos dados dos clientes executando a função da adição -->
         <div class="tab-pane fade mb-3" id="customer-add" role="tabpanel" aria-labelledby="add-tab" data-content="addCustomer"></div>
         <div class="tab-pane fade mb-3" id="settings" role="tabpanel" aria-labelledby="settings-tab" data-content="settings"></div>
+
+      
+        <div class="tab-pane fade mb-3" id="addCollaborator" role="tabpanel" aria-labelledby="addCollaborator-tab" data-content="addCollaborator"></div>
         <div class="tab-pane fade mb-3" id="listCustomers" role="tabpanel" aria-labelledby="add-tab" data-content="listCustomers  "></div>
       </div>
     </section>
@@ -86,6 +103,8 @@
 
     <script src="js/pages/addCustomer.js"></script>
     <script src="js/pages/listCustomers.js"></script>
+    
+    <script src="js/pages/addCollaborator.js"></script>
 
     <script src="js/pages/settings.js"></script>
     <!-- <script src="js/pages/wesley.js"></script>
