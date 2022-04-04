@@ -15,36 +15,36 @@
       <h1>CROSSBOX</h1>
       <hr>
       <!-- Botão da aba - Listar -->
-      
+
       <ul class="nav nav-tabs" id="myTab" role="tablist">
         <li class="nav-item" role="presentation">
           <button
             class="nav-link active"
-            id="list-tab"
+            id="customer-list-tab"
             data-bs-toggle="tab"
-            data-bs-target="#list"
+            data-bs-target="#customer-list"
             type="button"
             role="tab"
-            aria-controls="list"
+            aria-controls="customer-list"
             aria-selected="true"
           >
-            Listar
+            Listar Clientes
           </button>
         </li>
-        
+
         <!-- Botão da aba - Add -->
         <li class="nav-item" role="presentation">
           <button
             class="nav-link"
-            id="add-tab"
+            id="customer-add-tab"
             data-bs-toggle="tab"
-            data-bs-target="#add"
+            data-bs-target="#customer-add"
             type="button"
             role="tab"
-            aria-controls="add"
+            aria-controls="customer-add"
             aria-selected="false"
           >
-            Novo
+            Novo Cliente
           </button>
         </li>
         <li class="nav-item" role="presentation">
@@ -61,113 +61,31 @@
             Configurações
           </button>
         </li>
-
-
-
-        <!--
-        <li class="nav-item" role="presentation">
-          <button
-            class="nav-link"
-            id="login-tab"
-            data-bs-toggle="tab"
-            data-bs-target="#login"
-            type="button"
-            role="tab"
-            aria-controls="login"
-            aria-selected="false"
-          >
-            Login
-          </button>
-        </li>
-        
-        <li class="nav-item" role="presentation">
-          <button
-            class="nav-link"
-            id="ronaldo-tab"
-            data-bs-toggle="tab"
-            data-bs-target="#ronaldo"
-            type="button"
-            role="tab"
-            aria-controls="ronaldo"
-            aria-selected="false"
-          >
-            Ronaldo
-          </button>
-        </li>
-        <li class="nav-item" role="presentation">
-          <button class="nav-link" id="gui-tab" data-bs-toggle="tab" data-bs-target="#gui" type="button" role="tab" aria-controls="gui" aria-selected="false">gui</button>
-        </li>
-        <li class="nav-item" role="presentation">
-          <button class="nav-link" id="jesus-tab" data-bs-toggle="tab" data-bs-target="#jesus" type="button" role="tab" aria-controls="jesus" aria-selected="false">Jesus</button>
-        </div>
-        <li class="nav-item" role="presentation">
-          <button class="nav-link" id="joao-tab" data-bs-toggle="tab" data-bs-target="#joao" type="button" role="tab" aria-controls="joao" aria-selected="false">Joao</button>
-        </li>
-        <li class="nav-item" role="presentation">
-            <button class="nav-link" id="wesley-tab" data-bs-toggle="tab" data-bs-target="#wesley" type="button" role="tab" aria-controls="wesley" aria-selected="false">Wesley</button>
-        </li>
-        <li class="nav-item" role="presentation">
-          <button class="nav-link" id="dayane-tab" data-bs-toggle="tab" data-bs-target="#dayane" type="button" role="tab" aria-controls="dayane" aria-selected="false">Dayane</button>
-        </li>
-        <li class="nav-item" role="presentation">
-          <button class="nav-link" id="ale-tab" data-bs-toggle="tab" data-bs-target="#ale" type="button" role="tab" aria-controls="ale" aria-selected="false">Alessandro</button>
-        </li> 
-        <li class="nav-item" role="presentation">
-          <button class="nav-link" id="victoradler-tab" data-bs-toggle="tab" data-bs-target="#victoradler" type="button" role="tab" aria-controls="victoradler" aria-selected="false">Victor</button>
-        </li>
-      </li>
-      <li class="nav-item" role="presentation">
-        <button class="nav-link" id="jonas-tab" data-bs-toggle="tab" data-bs-target="#jonas" type="button" role="tab" aria-controls="jonas" aria-selected="false">Jonas</button>
-      </li>-->
     </ul>
 
 
       <div class="tab-content" id="myTabContent">
-
         <!-- Conteúdo da Listagem executando a função da listagem -->
-        <div class="tab-pane fade show active" id="list" role="tabpanel" aria-labelledby="list-tab" data-content="listVehicles"></div>
+        <div class="tab-pane fade show active" id="customer-list" role="tabpanel" aria-labelledby="list-tab" data-content="listCustomers"></div>
 
         <!-- Conteúdo da adição dos dados dos clientes executando a função da adição -->
-        <div class="tab-pane fade mb-3" id="add" role="tabpanel" aria-labelledby="add-tab" data-content="addVehicle"></div>
+        <div class="tab-pane fade mb-3" id="customer-add" role="tabpanel" aria-labelledby="add-tab" data-content="addCustomer"></div>
 
-        <!--
-        <div class="tab-pane fade mb-3" id="gui" role="tabpanel" aria-labelledby="gui-tab" data-content="gui"></div>
-        <div class="tab-pane fade mb-3" id="login" role="tabpanel" aria-labelledby="login-tab" data-content="login"></div>
         <div class="tab-pane fade mb-3" id="settings" role="tabpanel" aria-labelledby="settings-tab" data-content="settings"></div>
-    		<div class="tab-pane fade mb-3" id="jesus" role="tabpanel" aria-labelledby="jesus-tab" data-content="jesus"></div>
-        <div class="tab-pane fade mb-3" id="joao" role="joao" aria-labelledby="joao-tab" data-content="joao"></div>
-        <div class="tab-pane fade mb-3" id="wesley" role="tabpanel" aria-labelledby="wesley-tab" data-content="wesley"></div>
-        <div class="tab-pane fade mb-3" id="dayane" role="tabpanel" aria-labelledby="dayane-tab" data-content="dayane"></div>
-        <div class="tab-pane fade mb-3" id="ale" role="tabpanel" aria-labelledby="ale-tab" data-content="ale"></div>
-        <div class="tab-pane fade mb-3" id="ronaldo" role="tabpanel" aria-labelledby="ronaldo-tab" data-content="ronaldo"></div>
-        </div>
-        <div class="tab-pane fade mb-3" id="victoradler" role="tabpanel" aria-labelledby="victoradler-tab" data-content="victoradler">
-
-        </div>
-
-        <div class="tab-pane fade mb-3" id="jonas" role="tabpanel" aria-labelledby="jonas-tab" data-content="jonas">
-
-        </div>
-      -->
-
       </div>
     </section>
-
-    <section class="card card-body mt-5 col-1 d-flex justify-content-center align-items-center">
-      <img src="/assets/undraw_working_out_6psf.png" width="100%" alt="Desenho de pessoas se exercitando">
-    </section>
-
   </main>
 
-  
-  
-  
+
+
+
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
-    
-    <script src="js/pages/listVehicles.js"></script>
 
     <script src="js/pages/addVehicle.js"></script>
     <script src="js/pages/listVehicles.js"></script>
+
+    <script src="js/pages/addCustomer.js"></script>
+    <script src="js/pages/listCustomers.js"></script>
 
     <script src="js/pages/settings.js"></script>
     <!-- <script src="js/pages/wesley.js"></script>
