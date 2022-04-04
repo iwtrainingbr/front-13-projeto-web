@@ -44,6 +44,126 @@
       "marca": "Chevrolet",
       "modelo": "Kadett",
       "cor": "Branco"
+    },
+    {
+      "placa": "XXX-0800",
+      "marca": "Toyota",
+      "modelo": "Etios",
+      "ano_modelo": "2019",
+      "ano_fabricacao": "2019",
+      "cor": "Cinza",
+      "id": 6
+    },
+    {
+      "placa": "PMM-1234",
+      "marca": "",
+      "modelo": "",
+      "ano_modelo": "",
+      "ano_fabricacao": "",
+      "cor": "",
+      "id": 7
     }
+  ],
+  "schedules": [
+    {
+      "id": 1,
+      "day": "Domingo",
+      "begin_hour": "08:00",
+      "end_hour": "09:00",
+      "limit": "20"
+    },
+    {
+      "id":2,
+      "day": "Domingo",
+      "begin_hour": "09:00",
+      "end_hour": "10:00",
+      "limit": "20"
+    },
+    {
+      "id":3,
+    "day": "segunda",
+      "begin_hour": "08:00",
+      "end_hour": "09:00",
+      "limit": "10"
+    },
+    {
+      "id":4,
+       "day": "segunda",
+      "begin_hour": "09:00",
+      "end_hour": "10:00",
+      "limit": "10"
+    },
+    {
+      "id":5,
+       "day": "terça",
+      "begin_hour": "08:00",
+      "end_hour": "09:00",
+      "limit": "10"
+    },
+    {
+      "id":6,
+       "day": "terça",
+      "begin_hour": "09:00",
+      "end_hour": "10:00",
+      "limit": "10"
+    },
+    {
+      "id":7,
+       "day": "quarta",
+      "begin_hour": "08:00",
+      "end_hour": "09:00",
+      "limit": "15"
+    },
+    {
+      "id":8,
+      "day": "quarta",
+      "begin_hour": "09:00",
+      "end_hour": "10:00",
+      "limit": "15"
+    },
+    {
+      "id":9,
+      "day": "quinta",
+      "begin_hour": "08:00",
+      "end_hour": "09:00",
+      "limit": "10"
+    },
+    {
+      "id":10,
+      "day": "quinta",
+      "begin_hour": "09:00",
+      "end_hour": "10:00",
+      "limit": "10"
+    },
+    {
+      "id":11,
+       "day": "sexta",
+      "begin_hour": "08:00",
+      "end_hour": "09:00",
+      "limit": "20"
+    },
+    {
+      "id":12,
+       "day": "sexta",
+      "begin_hour": "09:00",
+      "end_hour": "10:00",
+      "limit": "20"
+    },
+    {
+      "id":13,
+       "day": "sabado",
+      "begin_hour": "08:00",
+      "end_hour": "09:00",
+      "limit": "30"
+    },
+    {
+      "id":14,
+       "day": "sabado",
+      "begin_hour": "09:00",
+      "end_hour": "10:00",
+      "limit": "30"
+    }
+   
+     
   ]
 }
