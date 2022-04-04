@@ -1,9 +1,8 @@
 document.querySelectorAll('[role="tabpanel"]').forEach(element => {
-  let functionName = element.getAttribute('data-content');
+  let functionName = element.getAttribute('data-content')
 
-  element.innerHTML = window[functionName]();
+  element.innerHTML = window[functionName]()
 })
-
 
 //antes era assim
 /*

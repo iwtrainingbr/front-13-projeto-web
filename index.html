@@ -9,11 +9,13 @@
     />
     <link rel="stylesheet" href="node_modules/animate.css/animate.min.css" />
   </head>
-  <body class="container" style="background-color: #dedede">
-    <section class="card card-body mt-5">
-      <h1>Estoque</h1>
-      <hr />
-
+  <body class="container" style="background-color: #DEDEDE;">
+    <main class="row d-flex">
+    <section class="card card-body mt-5 col-2">
+      <h1>CROSSBOX</h1>
+      <hr>
+      <!-- Botão da aba - Listar -->
+      
       <ul class="nav nav-tabs" id="myTab" role="tablist">
         <li class="nav-item" role="presentation">
           <button
@@ -29,6 +31,8 @@
             Listar
           </button>
         </li>
+        
+        <!-- Botão da aba - Add -->
         <li class="nav-item" role="presentation">
           <button
             class="nav-link"
@@ -46,20 +50,6 @@
         <li class="nav-item" role="presentation">
           <button
             class="nav-link"
-            id="login-tab"
-            data-bs-toggle="tab"
-            data-bs-target="#login"
-            type="button"
-            role="tab"
-            aria-controls="login"
-            aria-selected="false"
-          >
-            Login
-          </button>
-        </li>
-        <li class="nav-item" role="presentation">
-          <button
-            class="nav-link"
             id="settings-tab"
             data-bs-toggle="tab"
             data-bs-target="#settings"
@@ -71,6 +61,25 @@
             Configurações
           </button>
         </li>
+
+
+
+        <!--
+        <li class="nav-item" role="presentation">
+          <button
+            class="nav-link"
+            id="login-tab"
+            data-bs-toggle="tab"
+            data-bs-target="#login"
+            type="button"
+            role="tab"
+            aria-controls="login"
+            aria-selected="false"
+          >
+            Login
+          </button>
+        </li>
+        
         <li class="nav-item" role="presentation">
           <button
             class="nav-link"
@@ -102,31 +111,32 @@
         </li>
         <li class="nav-item" role="presentation">
           <button class="nav-link" id="ale-tab" data-bs-toggle="tab" data-bs-target="#ale" type="button" role="tab" aria-controls="ale" aria-selected="false">Alessandro</button>
-        </li>
+        </li> 
         <li class="nav-item" role="presentation">
           <button class="nav-link" id="victoradler-tab" data-bs-toggle="tab" data-bs-target="#victoradler" type="button" role="tab" aria-controls="victoradler" aria-selected="false">Victor</button>
         </li>
       </li>
       <li class="nav-item" role="presentation">
         <button class="nav-link" id="jonas-tab" data-bs-toggle="tab" data-bs-target="#jonas" type="button" role="tab" aria-controls="jonas" aria-selected="false">Jonas</button>
-      </li>
-      </ul>
+      </li>-->
+    </ul>
+
 
       <div class="tab-content" id="myTabContent">
+
+        <!-- Conteúdo da Listagem executando a função da listagem -->
         <div class="tab-pane fade show active" id="list" role="tabpanel" aria-labelledby="list-tab" data-content="listVehicles"></div>
 
-        <div class="tab-pane fade mb-3" id="gui" role="tabpanel" aria-labelledby="gui-tab" data-content="gui"></div>
-
+        <!-- Conteúdo da adição dos dados dos clientes executando a função da adição -->
         <div class="tab-pane fade mb-3" id="add" role="tabpanel" aria-labelledby="add-tab" data-content="addVehicle"></div>
+
+        <!--
+        <div class="tab-pane fade mb-3" id="gui" role="tabpanel" aria-labelledby="gui-tab" data-content="gui"></div>
         <div class="tab-pane fade mb-3" id="login" role="tabpanel" aria-labelledby="login-tab" data-content="login"></div>
         <div class="tab-pane fade mb-3" id="settings" role="tabpanel" aria-labelledby="settings-tab" data-content="settings"></div>
-
     		<div class="tab-pane fade mb-3" id="jesus" role="tabpanel" aria-labelledby="jesus-tab" data-content="jesus"></div>
-
-
         <div class="tab-pane fade mb-3" id="joao" role="joao" aria-labelledby="joao-tab" data-content="joao"></div>
         <div class="tab-pane fade mb-3" id="wesley" role="tabpanel" aria-labelledby="wesley-tab" data-content="wesley"></div>
-
         <div class="tab-pane fade mb-3" id="dayane" role="tabpanel" aria-labelledby="dayane-tab" data-content="dayane"></div>
         <div class="tab-pane fade mb-3" id="ale" role="tabpanel" aria-labelledby="ale-tab" data-content="ale"></div>
         <div class="tab-pane fade mb-3" id="ronaldo" role="tabpanel" aria-labelledby="ronaldo-tab" data-content="ronaldo"></div>
@@ -138,27 +148,39 @@
         <div class="tab-pane fade mb-3" id="jonas" role="tabpanel" aria-labelledby="jonas-tab" data-content="jonas">
 
         </div>
+      -->
 
       </div>
     </section>
 
+    <section class="card card-body mt-5 col-1 d-flex justify-content-center align-items-center">
+      <img src="/assets/undraw_working_out_6psf.png" width="100%" alt="Desenho de pessoas se exercitando">
+    </section>
+
+  </main>
+
+  
+  
+  
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
-
-
-
-    <script src="js/pages/wesley.js"></script>
-    <script src="js/pages/ale.js"></script>
+    
     <script src="js/pages/listVehicles.js"></script>
-    <script src="js/pages/victoradler.js"></script>
+
     <script src="js/pages/addVehicle.js"></script>
-    <script src="js/pages/login.js"></script>
+    <script src="js/pages/listVehicles.js"></script>
+
     <script src="js/pages/settings.js"></script>
+    <!-- <script src="js/pages/wesley.js"></script>
+    <script src="js/pages/ale.js"></script>
+    <script src="js/pages/login.js"></script>
+    <script src="js/pages/victoradler.js"></script>
     <script src="js/pages/jonas.js"></script>
     <script src="js/pages/gui.js"></script>
  	  <script src="js/pages/jesus.js"></script>
-    <script src="js/pages/joao.js"></script>
-    <script src="js/pages/dayane.js"></script>
     <script src="js/pages/ronaldo.js"></script>
+    <script src="js/pages/joao.js"></script>
+    <script src="js/pages/dayane.js"></script> -->
+
     <script src="js/main.js"></script>
   </body>
 </html>
