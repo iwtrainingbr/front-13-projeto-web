@@ -26,13 +26,13 @@ function listCollaborators () {
       <table class="table table-striped table-dark">
         <thead class="table-dark">
             <tr>
-            <th>Name</th>
+            <th>Nome</th>
             <th>Email</th>
-            <th>Phone</th>
-            <th>Gender</th>
-            <th>Birth</th>
-            <th>Address</th>
-            <th>Specialty</th>
+            <th>Telefone</th>
+            <th>Sexo</th>
+            <th>Data de Nascimento</th>
+            <th>Endereço</th>
+            <th>Especialidades</th>
             </tr>
         </thead>
         <tbody id="table-collaborators">
