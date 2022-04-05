@@ -1,6 +1,24 @@
+const URL_CUSTOMERS = 'http://localhost:3009/customers'
+
 
 function listCustomers() {
   //buscando todos os veiculos, na API
+  fetch(URL_CUSTOMERS, {method: 'GET'})
+    .then(response => response.json())
+    .then(costumers => {
+      costumers.map(col =>{
+        document.getElementById('table-listCustomers').innerHTML += `
+        <td>${col.name}</td>
+        <td>${col.email}</td>
+        <td>${col.phone}</td>
+        <td>${col.adress}</td>
+        <td>${col.birth}</td>
+        <td>${col.gender}</td>
+        `;
+      });
+    });
+
+
 
   return `
     <table class="table table-hover table-striped mt-3">
@@ -12,22 +30,10 @@ function listCustomers() {
           <th>Endereço</th>
           <th>Data de Nascimento</th>
           <th>Sexo</th>
-          
-
         </tr>
-        
       </thead>
-      <tbody id="listCustomers">
-        ${[0, 1, 2, 3, 5, 6].map(id => `
-          <tr>
-            <td>Nome ${id}</td>
-            <td>Email ${id}</td>
-            <td>Telefone ${id}</td>
-            <td>Endereço ${id}</td>
-            <td>Data de Nascimento ${id}</td>
-            <td>Sexo ${id}</td>
-          </tr>
-        `).join('')}
+      <tbody id="table-listCustomers">
+        
       </tbody>
     </table>
   `;
