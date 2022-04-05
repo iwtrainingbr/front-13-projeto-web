@@ -42,6 +42,7 @@ function addSchadule() {
     <option data-content="hour">20:00/20:50</option>        
     <option data-content="hour">21:00/21:50</option>        
     </select>
+    
     </div>
 
     <div class="col mt-2"> 
